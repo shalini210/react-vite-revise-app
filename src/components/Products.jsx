@@ -19,5 +19,7 @@ export default function Products() {
     <div className='flex flex-wrap'>
         {productsui}
     </div>
+
+    
   )
 }
