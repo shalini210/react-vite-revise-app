@@ -71,7 +71,7 @@ var prdts = [
       "Easy access to all ports",
     ],
     des: "LK098 Anti-Splash Magnetic Wireless Charging iPhone 15 Pro Max Back Case.",
-    rating: 4,
+    rating: 4.5,
     additionalImages:[realme2,realme3,realme4,realme5]
   },
   {
@@ -96,7 +96,7 @@ var prdts = [
       "Easy to clean",
     ],
     des: "Polycarbonate Wipe it with a clean and dry cloth to remove dust.",
-    rating: 4,
+    rating: 3,
     additionalImages:[sumsung2,sumsung3,sumsung4,sumsung5]
   },
   {
@@ -121,7 +121,7 @@ var prdts = [
       "Easy 30 days returns and exchanges",
     ],
     des: "100% Original Products. Pay on delivery might be available. Easy 30 days returns and exchanges.",
-    rating: 4,
+    rating: 5,
     additionalImages: [iphone2, iphone3, iphone4,iphone5]
   },
 ];
