@@ -5,6 +5,7 @@ import Rating from './Rating';
 import { CartContext } from '../context/Cartcontext';
 import { useContext } from 'react';
 import { UserContext } from '../context/UserContext';
+import ItemCounter from './ItemCounter';
 export default function Products() {
     const User = useContext(UserContext)
     const [productsui,setproductsui ] = useState();
@@ -18,6 +19,7 @@ export default function Products() {
                 <img src={p.img} alt="" className='w-1/2 aspect-square' />
                 <Rating n={p.rating}></Rating>
                 <div className='text-xl font-bold' >{p.name}</div>
+                <div><ItemCounter pid={p.id}></ItemCounter></div>
                 <div><Link to={"/productdetails/"+p.id} 
                 className='px-6 py-2 bg-blue-500 border-2 text-white border-orange-200 border-double'>View Details</Link></div>
             </div>

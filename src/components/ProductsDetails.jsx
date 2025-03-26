@@ -7,27 +7,17 @@ import { CartContext } from '../context/Cartcontext';
 import { useContext } from 'react';
 import { UserContext } from '../context/UserContext'
 import Rating from './Rating'
+import ItemCounter from './ItemCounter'
 export default function ProductsDetails() {
   const User = useContext(UserContext)
   const Cart = useContext(CartContext)
     let params = useParams()
     let pid = params.pid
     const [productInfo,setProductInfo] = useState(prdts.find((p)=>p.id == pid))
+    const [index,setindex] = useState(Cart.items.findIndex((p)=>p.id==pid))
+  
     let imgref = useRef()
-    let addtocart=()=>
-    {
-      let index =  Cart.items.findIndex((p)=>p.id == pid);
-      console.log(index)
-      if(index <0)
-      {
-      Cart.items.push({id:productInfo.id,itemname:productInfo.title,price:productInfo.price,qty:1})
-      }
-      else
-      {
-        Cart.items[index].qty = Cart.items[index].qty +1
-      }
-      console.log(Cart.items)
-    }
+   
   return (
     <> 
     <h1>Welcome : {User.username}</h1>
@@ -50,8 +40,8 @@ export default function ProductsDetails() {
                 </div>
         </div>
         <div className='w-1/2'>
-                    <input type="button" value="Add to Cart" onClick={()=>addtocart()} className='bg-orange-400
-                    ' />
+      <ItemCounter pid={pid}></ItemCounter>
+                    
         </div>
     </div>
     </>
