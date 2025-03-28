@@ -9,6 +9,7 @@ import Rating from './components/Rating'
 import { CartContext } from './context/Cartcontext'
 import { UserContext } from './context/UserContext'
 import Cart from './components/Cart'
+import Categoris from './components/Categoris'
 function App() {
  
 const [masterItems,setMasterItems] = useState([])
@@ -18,11 +19,13 @@ const [masterItems,setMasterItems] = useState([])
       {/* <CartContext.Provider value={{items:[]}}> */}
 <CartContext.Provider value={{items:masterItems,setitems:setMasterItems}}>
       <div className=''>
-      <Link to="/" className='underline'>Products</Link>
+      <Link to="/" className='underline'>categories</Link>
+      <Link to="/products" className='underline'>Products</Link>
         <Link to="/cart" className='underline'>Go to Cart</Link>
         
         <Routes>
-          <Route path="/" element={<Products></Products>}></Route>
+          <Route path="/" element={<Categoris></Categoris>}></Route>
+          <Route path="/products" element={<Products></Products>}></Route>
           <Route path='/productdetails/:pid' element={<ProductsDetails></ProductsDetails>}></Route>
           <Route path='/cart' element={<Cart></Cart>}></Route>
         </Routes>

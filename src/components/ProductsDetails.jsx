@@ -41,7 +41,30 @@ export default function ProductsDetails() {
         </div>
         <div className='w-1/2'>
       <ItemCounter pid={pid}></ItemCounter>
-                    
+                 
+                 
+                 <div className='grid grid-cols-2'>
+                  <div>  name: {productInfo.name}</div>
+                  <div>  company: {productInfo.company}</div>
+                  <div>  price: {productInfo.price}</div>
+                     <div>brand:{productInfo.brand}</div>
+                      {/* brand: "Wohn Wunder",
+                      modelno: "OTF25 ",
+                      title: "WohnWunder Oscillating Tower Fan 25",
+                      coloroptions: ["Red", "blue", "pink"],
+                      originalprice: "5999",
+                      discountedprice: "1799",
+                      modelseries: "OTF Series",
+                      weight: "12kgs",
+                      dimensions: "80 cm x 50 cm x 70 cm",
+                      type: "Desert",
+                      category:"Cooler and Fans",
+                      keyfeatures: ["Blade Sweep: 50 mm","Design: Premium","Ultra High Speed" ],
+                      des: "WohnWunder is a brand that believes in delivering products with unmatched quality and performance. Cooldown this summer with the WohnWunder Tower Fan. The fan comes in a modern elegant design and delivers you the best and cool air. The color and the design of the fan blends in well with the interiors of all kinds of houses. The glorious Fans nestled at your home and gives elegant look And Complete Decoration to your Room Sleek and Stylish Design",
+                      rating:3.5,
+                      additionalImages:[cooler2_1,cooler2_2,cooler2_3,cooler2_4]</div> */}
+                 </div>
+
         </div>
     </div>
     </>
