@@ -20,10 +20,12 @@ const [masterItems,setMasterItems] = useState([])
 <CartContext.Provider value={{items:masterItems,setitems:setMasterItems}}>
       <div className=''>
       <Link to="/" className='underline'>categories</Link>
+      
       <Link to="/products" className='underline'>Products</Link>
         <Link to="/cart" className='underline'>Go to Cart</Link>
         
         <Routes>
+        <Route path="/products/:category" element={<Products></Products>}></Route>
           <Route path="/" element={<Categoris></Categoris>}></Route>
           <Route path="/products" element={<Products></Products>}></Route>
           <Route path='/productdetails/:pid' element={<ProductsDetails></ProductsDetails>}></Route>
