@@ -468,6 +468,156 @@ var prdts = [
     rating: 4.5,
     additionalImages: [xiaomi2, xiaomi3, xiaomi4, xiaomi5],
   },
+
+
+
+    {
+      "id": 16,
+      "img": "https://cdn.pixabay.com/photo/2016/10/02/22/17/red-t-shirt-1710578_1280.jpg",
+      "name": "Kids Cartoon Printed T-Shirt",
+      "category": "Kids Clothing",
+      "company": "TinyTrends",
+      "price": "499",
+      "brand": "TinyTrends",
+      "modelno": "TT-1001",
+      "title": "Comfortable Cotton T-Shirt",
+      "coloroptions": ["Red", "Blue", "Yellow"],
+      "originalprice": "699",
+      "discountedprice": "499",
+      "modelseries": "TinyTrends Casuals",
+      "weight": "200g",
+      "dimensions": "Varies by size",
+      "type": "T-Shirt",
+      "keyfeatures": [
+        "100% Cotton",
+        "Soft Fabric",
+        "Cute Cartoon Print"
+      ],
+      "des": "This breathable cotton t-shirt is perfect for kids, featuring vibrant cartoon prints.",
+      "rating": 4.5,
+      "additionalImages": [
+        "https://cdn.pixabay.com/photo/2013/07/12/19/00/polo-shirt-154158_1280.png",
+        "https://cdn.pixabay.com/photo/2024/07/01/06/41/ai-generated-8864561_1280.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPAhM3G464V3rYOICTiLC1WHmdiUC68sSYOg&s",
+      "name": "Kids Denim Jeans",
+      "category": "Kids Clothing",
+      "company": "LittleFashion",
+      "price": "799",
+      "brand": "LittleFashion",
+      "modelno": "LF-2001",
+      "title": "Stylish Blue Denim Jeans",
+      "coloroptions": ["Blue", "Black"],
+      "originalprice": "999",
+      "discountedprice": "799",
+      "modelseries": "LittleFashion Jeans",
+      "weight": "500g",
+      "dimensions": "Varies by size",
+      "type": "Jeans",
+      "keyfeatures": [
+        "Durable Fabric",
+        "Stretchable Material",
+        "Trendy Look"
+      ],
+      "des": "These stylish denim jeans are perfect for kids, offering comfort and durability.",
+      "rating": 4.6,
+      "additionalImages": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIlb-uN8W66ce_KVDbUgK0MWlNAPaUgkfNQzEaxJem_yzxw-SavKhVsqU4EBTVE6Elhc4&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF367suL3cRHmelOvFzU0T6vM42cF9sSPE0el3-79t5diKquVsbxRQiB5Q4GFS5Gdzkg4&usqp=CAU"
+      ]
+    },
+    {
+      "id": 18,
+      "img": "https://images.meesho.com/images/products/218376626/qvt94_512.webp",
+      "name": "Girls Party Dress",
+      "category": "Kids Clothing",
+      "company": "PrincessWear",
+      "price": "1,499",
+      "brand": "PrincessWear",
+      "modelno": "PW-3001",
+      "title": "Elegant Party Dress",
+      "coloroptions": ["Pink", "White", "Purple"],
+      "originalprice": "1,999",
+      "discountedprice": "1,499",
+      "modelseries": "PrincessWear Collection",
+      "weight": "400g",
+      "dimensions": "Varies by size",
+      "type": "Dress",
+      "keyfeatures": [
+        "Soft Net Fabric",
+        "Elegant Embroidery",
+        "Perfect for Parties"
+      ],
+      "des": "A beautiful dress designed for special occasions, featuring lace and embroidery.",
+      "rating": 4.7,
+      "additionalImages": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5jLoXKl2uiRZVG1dcrg-q17SWFy7Kas_0gH_yVup_hSuI1HJstOT9DTqxDp5pMUO79jc&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYQBZnh9Pz5YKF8WuK5cDmplFHyHZc1r1EZO7HqfsbyCA2BVkcnvsDhjBrebaH2eb-y2w&usqp=CAU"
+      ]
+    },
+    {
+      "id": 19,
+      "img": "https://m.media-amazon.com/images/I/51j80gVWRbL._AC_UY1100_.jpg",
+      "name": "Kids Winter Jacket",
+      "category": "Kids Clothing",
+      "company": "WarmHug",
+      "price": "1,299",
+      "brand": "WarmHug",
+      "modelno": "WH-4001",
+      "title": "Cozy Fleece Jacket",
+      "coloroptions": ["Red", "Navy Blue", "Gray"],
+      "originalprice": "1,599",
+      "discountedprice": "1,299",
+      "modelseries": "WarmHug Winter",
+      "weight": "700g",
+      "dimensions": "Varies by size",
+      "type": "Jacket",
+      "keyfeatures": [
+        "Warm Fleece Material",
+        "Hooded Design",
+        "Windproof"
+      ],
+      "des": "Keep your kids warm and stylish with this soft fleece jacket.",
+      "rating": 4.8,
+      "additionalImages": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2hUClJMJOXSdSlEbNo4R4JzkWrJojU8H_8xMRnD7z9s49I9X2rJFUePdBiQhuSzayMzg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUkiL3zT9sbQFMYnSF5D2EhtFn9pu3J0Cuq47n6BLwbRlmJeHJWIW3Cfv9j5BVe7TKojU&usqp=CAU"
+      ]
+    },
+    {
+      "id": 20,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6w_ZuqZZDaEObvLwDtLWcc2kSki5BTI40ZA&s",
+      "name": "Kids Sports Shoes",
+      "category": "Kids Clothing",
+      "company": "ActiveFeet",
+      "price": "999",
+      "brand": "ActiveFeet",
+      "modelno": "AF-5001",
+      "title": "Breathable Running Shoes",
+      "coloroptions": ["Black", "White", "Green"],
+      "originalprice": "1,299",
+      "discountedprice": "999",
+      "modelseries": "ActiveFeet Kids",
+      "weight": "600g",
+      "dimensions": "Varies by size",
+      "type": "Shoes",
+      "keyfeatures": [
+        "Lightweight",
+        "Anti-Slip Sole",
+        "Breathable Mesh"
+      ],
+      "des": "Comfortable and stylish sports shoes designed for active kids.",
+      "rating": 4.6,
+      "additionalImages": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-qrNu5bvHT0b5pCsI6Y28tDSQhGmtzpqViKhe80khAtUaW9hXjA3KWjmLEbD8Spv5_RA&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV8xVO7y2aK9Bm3tCN6sMHlvmqM4wN_xiKj82raSMNvUJjsvtGRjz7EvRpQwzvY_Nehoo&usqp=CAU"
+      ]
+    }
+  
+  
 ];
 
 export default prdts;
