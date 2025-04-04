@@ -1,28 +1,3 @@
-import nokia from "../assets/img/Nokia.jpg";
-import nokia2 from "../assets/img/Nokia2.jpg";
-import nokia3 from "../assets/img/Nokia3.jpg";
-import nokia4 from "../assets/img/Nokia4.jpg";
-import nokia5 from "../assets/img/Nokia5.jpg";
-
-import realme from "../assets/img/realme.jpg";
-import realme2 from "../assets/img/realme2.jpg";
-import realme3 from "../assets/img/realme3.jpg";
-import realme4 from "../assets/img/realme4.jpg";
-import realme5 from "../assets/img/realme5.jpg";
-
-import sumsung from "../assets/img/sumsung.jpg";
-import sumsung2 from "../assets/img/sumsung2.jpg";
-import sumsung3 from "../assets/img/sumsung3.jpg";
-import sumsung4 from "../assets/img/sumsung4.jpg";
-import sumsung5 from "../assets/img/sumsung5.jpg";
-
-import iphone from "../assets/img/iphone.jpg";
-import iphone2 from "../assets/img/iphone2.jpg";
-import iphone3 from "../assets/img/iphone3.jpg";
-import iphone4 from "../assets/img/iphone4.jpg";
-import iphone5 from "../assets/img/iphone5.jpg";
-
-
 
 import bajaj1 from '../image/bajajmain.jpg'
 import bajaj2 from '../image/bajaj2.jpg'
